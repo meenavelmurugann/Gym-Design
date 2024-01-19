@@ -1,0 +1,64 @@
+.layer-1 {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+  }
+  .child1 {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    width: 20%;
+    text-align: center;
+    
+    z-index: 3;
+  }
+  .child1 h1 {
+    font-size: 27px;
+    letter-spacing: 4px;
+    font-weight: 500;
+  }
+  .child2 {
+    position: absolute;
+    top: 30%;
+    left: 24%;
+    color: white;
+    width: 50%;
+    text-align: center;
+    z-index: 2;
+  }
+  .child3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(210, 213, 217, 0.2);
+    z-index: 1;
+}
+.img2 {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    padding: 20px 0px;
+  }
+  
+  .layer-3 h1 {
+    font-size: 38px;
+    letter-spacing: 6px;
+  }
+  
+  .layer-3 h4 {
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 8px;
+  }
+  
+  .footer-style h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 10px 0px;
+    font-weight: 200;
+    letter-spacing: 7px;
+  }
+  
+  
